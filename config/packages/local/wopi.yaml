@@ -1,0 +1,3 @@
+wopi:
+  server: "http://wopiclient:9980"
+  access_token_ttl: 0

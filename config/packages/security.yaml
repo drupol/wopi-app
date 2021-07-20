@@ -1,0 +1,35 @@
+security:
+    enable_authenticator_manager: true
+
+    password_hashers:
+        Symfony\Component\Security\Core\User\InMemoryUser: 'auto'
+
+    providers:
+        fake_users_in_memory:
+            id: ChampsLibres\WopiTestBundle\Service\Security\UserProvider\FakeUserProvider
+
+    firewalls:
+        dev:
+            pattern: ^/(_(profiler|wdt)|css|images|js)/
+            security: false
+
+        wopi:
+            pattern: ^/wopi
+            stateless: true
+            jwt: ~
+
+        admin:
+            pattern: ^/
+            provider: fake_users_in_memory
+            form_login:
+                login_path: login
+                check_path: login
+            logout: true
+            switch_user: true
+            remember_me: false
+
+    access_control:
+        - { path: ^/login, roles: IS_AUTHENTICATED_ANONYMOUSLY }
+        - { path: ^/admin/wopi/index, roles: IS_AUTHENTICATED_ANONYMOUSLY }
+        - { path: ^/admin/wopi, roles: ROLE_USER }
+        - { path: ^/wopi, roles: ROLE_USER }

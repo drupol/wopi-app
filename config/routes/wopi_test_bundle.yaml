@@ -1,0 +1,3 @@
+wopi_bundle:
+  resource: '@WopiTestBundle/Resources/config/routes/routes.php'
+  prefix: /

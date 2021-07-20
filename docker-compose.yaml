@@ -1,0 +1,37 @@
+version: "3.5"
+
+services:
+  web:
+    image: fpfis/httpd-php-dev:7.4
+    restart: unless-stopped
+    volumes:
+      - .:/srv/app/:rw,cached
+      - /home/pol/dev/git/:/src/git/:rw,cached
+    environment:
+      - DOCUMENT_ROOT=/srv/app/public
+    working_dir: /srv/app/
+    ports:
+      - 8080:8080
+
+  collabora:
+    image: collabora/code
+    restart: unless-stopped
+    environment:
+      - DONT_GEN_SSL_CERT="True"
+      - extra_params=--o:ssl.enable=false --o:ssl.termination=false
+      - username=admin
+      - password=admin
+      - dictionaries=en_US
+    cap_add:
+      - MKNOD
+    ports:
+      - "9980:9980"
+
+  wopivalidator:
+    image: tylerbutler/wopi-validator
+
+  onlyoffice:
+    restart: unless-stopped
+    image: onlyoffice/documentserver
+    ports:
+      - 80:80
