@@ -31,6 +31,9 @@ Open a new terminal
 3. `composer self-update --2`
 4. `composer install -n`
 5. `bin/console lexik:jwt:generate-keypair`
+6. `bin/console doctrine:database:create`
+7. `bin/console doctrine:schema:create`
+8. `chmod 777 var/data.db`
 
 Once it's done, the web app should be available at [http://web:8080/](http://web:8080/).
 
