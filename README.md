@@ -1,9 +1,10 @@
 # Installation
 
-Edit your OS hostfile and add 2 entries:
+Edit your OS hostfile and add 3 entries:
 
 - `127.0.0.1 web`
-- `127.0.0.1 wopiclient`
+- `127.0.0.1 collabora`
+- `127.0.0.1 onlyoffice`
 
 Open a terminal
 
