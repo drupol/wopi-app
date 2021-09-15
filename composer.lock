@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Champs-Libres/wopi-bundle.git",
-                "reference": "e6a61c06d9b032249d18ceeef841303c84f3fb78"
+                "reference": "55c94cabb2cb57ebaf01f64df7a99df84ff0638e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Champs-Libres/wopi-bundle/zipball/e6a61c06d9b032249d18ceeef841303c84f3fb78",
-                "reference": "e6a61c06d9b032249d18ceeef841303c84f3fb78",
+                "url": "https://api.github.com/repos/Champs-Libres/wopi-bundle/zipball/55c94cabb2cb57ebaf01f64df7a99df84ff0638e",
+                "reference": "55c94cabb2cb57ebaf01f64df7a99df84ff0638e",
                 "shasum": ""
             },
             "require": {
@@ -57,7 +57,7 @@
                 "issues": "https://github.com/Champs-Libres/wopi-bundle/issues",
                 "source": "https://github.com/Champs-Libres/wopi-bundle/tree/master"
             },
-            "time": "2021-09-15T14:53:01+00:00"
+            "time": "2021-09-15T20:29:09+00:00"
         },
         {
             "name": "champs-libres/wopi-lib",
@@ -65,12 +65,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Champs-Libres/wopi-lib.git",
-                "reference": "709652f208eb6483150e5dba93380819c2ffeea4"
+                "reference": "2dea8aeede580fbba1e7e1af3384ba03220a0fe5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Champs-Libres/wopi-lib/zipball/709652f208eb6483150e5dba93380819c2ffeea4",
-                "reference": "709652f208eb6483150e5dba93380819c2ffeea4",
+                "url": "https://api.github.com/repos/Champs-Libres/wopi-lib/zipball/2dea8aeede580fbba1e7e1af3384ba03220a0fe5",
+                "reference": "2dea8aeede580fbba1e7e1af3384ba03220a0fe5",
                 "shasum": ""
             },
             "require": {
@@ -115,7 +115,7 @@
                 "issues": "https://github.com/Champs-Libres/wopi-lib/issues",
                 "source": "https://github.com/Champs-Libres/wopi-lib/tree/master"
             },
-            "time": "2021-09-15T14:50:07+00:00"
+            "time": "2021-09-15T20:14:20+00:00"
         },
         {
             "name": "champs-libres/wopi-test-bundle",
@@ -1990,16 +1990,16 @@
         },
         {
             "name": "lexik/jwt-authentication-bundle",
-            "version": "v2.12.6",
+            "version": "v2.13.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/lexik/LexikJWTAuthenticationBundle.git",
-                "reference": "f2df9f7a371a99a05e5bfe65c634a7e0cdf1c539"
+                "reference": "d3dbf97f9a2f7cead53767111234bb16b8726681"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lexik/LexikJWTAuthenticationBundle/zipball/f2df9f7a371a99a05e5bfe65c634a7e0cdf1c539",
-                "reference": "f2df9f7a371a99a05e5bfe65c634a7e0cdf1c539",
+                "url": "https://api.github.com/repos/lexik/LexikJWTAuthenticationBundle/zipball/d3dbf97f9a2f7cead53767111234bb16b8726681",
+                "reference": "d3dbf97f9a2f7cead53767111234bb16b8726681",
                 "shasum": ""
             },
             "require": {
@@ -2085,7 +2085,7 @@
             ],
             "support": {
                 "issues": "https://github.com/lexik/LexikJWTAuthenticationBundle/issues",
-                "source": "https://github.com/lexik/LexikJWTAuthenticationBundle/tree/v2.12.6"
+                "source": "https://github.com/lexik/LexikJWTAuthenticationBundle/tree/v2.13.0"
             },
             "funding": [
                 {
@@ -2097,7 +2097,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-07-29T11:25:22+00:00"
+            "time": "2021-09-15T16:40:37+00:00"
         },
         {
             "name": "loophp/psr-http-message-bridge-bundle",
