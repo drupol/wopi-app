@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Champs-Libres/wopi-bundle.git",
-                "reference": "199aaf472ffb984c539a2c686ec426710711c2d8"
+                "reference": "e6a61c06d9b032249d18ceeef841303c84f3fb78"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Champs-Libres/wopi-bundle/zipball/199aaf472ffb984c539a2c686ec426710711c2d8",
-                "reference": "199aaf472ffb984c539a2c686ec426710711c2d8",
+                "url": "https://api.github.com/repos/Champs-Libres/wopi-bundle/zipball/e6a61c06d9b032249d18ceeef841303c84f3fb78",
+                "reference": "e6a61c06d9b032249d18ceeef841303c84f3fb78",
                 "shasum": ""
             },
             "require": {
@@ -27,7 +27,8 @@
                 "php": ">= 7.4",
                 "symfony/expression-language": ">= 4.4",
                 "symfony/framework-bundle": ">= 4.4",
-                "symfony/http-client": ">= 4.4"
+                "symfony/http-client": ">= 4.4",
+                "symfony/security-core": ">= 4.4"
             },
             "require-dev": {
                 "drupol/php-conventions": "^5.0",
@@ -56,7 +57,7 @@
                 "issues": "https://github.com/Champs-Libres/wopi-bundle/issues",
                 "source": "https://github.com/Champs-Libres/wopi-bundle/tree/master"
             },
-            "time": "2021-09-14T21:24:08+00:00"
+            "time": "2021-09-15T14:53:01+00:00"
         },
         {
             "name": "champs-libres/wopi-lib",
@@ -64,12 +65,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Champs-Libres/wopi-lib.git",
-                "reference": "fa75b24f811ebfeae0675cdb53e6855b2c604389"
+                "reference": "709652f208eb6483150e5dba93380819c2ffeea4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Champs-Libres/wopi-lib/zipball/fa75b24f811ebfeae0675cdb53e6855b2c604389",
-                "reference": "fa75b24f811ebfeae0675cdb53e6855b2c604389",
+                "url": "https://api.github.com/repos/Champs-Libres/wopi-lib/zipball/709652f208eb6483150e5dba93380819c2ffeea4",
+                "reference": "709652f208eb6483150e5dba93380819c2ffeea4",
                 "shasum": ""
             },
             "require": {
@@ -114,7 +115,7 @@
                 "issues": "https://github.com/Champs-Libres/wopi-lib/issues",
                 "source": "https://github.com/Champs-Libres/wopi-lib/tree/master"
             },
-            "time": "2021-09-14T21:23:47+00:00"
+            "time": "2021-09-15T14:50:07+00:00"
         },
         {
             "name": "champs-libres/wopi-test-bundle",
@@ -122,12 +123,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Champs-Libres/wopi-test-bundle.git",
-                "reference": "90ac10eee4895b29b135b949793c378516bb2aa2"
+                "reference": "6f7abaeebfa451e62196c10e43f414ba5c8a818d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Champs-Libres/wopi-test-bundle/zipball/90ac10eee4895b29b135b949793c378516bb2aa2",
-                "reference": "90ac10eee4895b29b135b949793c378516bb2aa2",
+                "url": "https://api.github.com/repos/Champs-Libres/wopi-test-bundle/zipball/6f7abaeebfa451e62196c10e43f414ba5c8a818d",
+                "reference": "6f7abaeebfa451e62196c10e43f414ba5c8a818d",
                 "shasum": ""
             },
             "require": {
@@ -142,6 +143,7 @@
                 "symfony/form": "^5.3",
                 "symfony/orm-pack": "^2.1",
                 "symfony/profiler-pack": "^1.0",
+                "symfony/serializer": "^5.3",
                 "symfony/uid": "^5.3"
             },
             "require-dev": {
@@ -172,7 +174,7 @@
                 "issues": "https://github.com/Champs-Libres/wopi-test-bundle/issues",
                 "source": "https://github.com/Champs-Libres/wopi-test-bundle/tree/master"
             },
-            "time": "2021-09-14T21:11:57+00:00"
+            "time": "2021-09-15T14:55:45+00:00"
         },
         {
             "name": "composer/package-versions-deprecated",
@@ -2235,24 +2237,24 @@
         },
         {
             "name": "monolog/monolog",
-            "version": "2.3.3",
+            "version": "2.3.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "3962ebfe206ac7ce6c754c79e2fee0c64bf1818d"
+                "reference": "437e7a1c50044b92773b361af77620efb76fff59"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/3962ebfe206ac7ce6c754c79e2fee0c64bf1818d",
-                "reference": "3962ebfe206ac7ce6c754c79e2fee0c64bf1818d",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/437e7a1c50044b92773b361af77620efb76fff59",
+                "reference": "437e7a1c50044b92773b361af77620efb76fff59",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.2",
-                "psr/log": "^1.0.1 || ^2.0"
+                "psr/log": "^1.0.1 || ^2.0 || ^3.0"
             },
             "provide": {
-                "psr/log-implementation": "1.0.0 || 2.0.0"
+                "psr/log-implementation": "1.0.0 || 2.0.0 || 3.0.0"
             },
             "require-dev": {
                 "aws/aws-sdk-php": "^2.4.9 || ^3.0",
@@ -2266,6 +2268,7 @@
                 "phpstan/phpstan": "^0.12.91",
                 "phpunit/phpunit": "^8.5",
                 "predis/predis": "^1.1",
+                "rollbar/rollbar": "^1.3",
                 "ruflin/elastica": ">=0.90@dev",
                 "swiftmailer/swiftmailer": "^5.3|^6.0"
             },
@@ -2317,7 +2320,7 @@
             ],
             "support": {
                 "issues": "https://github.com/Seldaek/monolog/issues",
-                "source": "https://github.com/Seldaek/monolog/tree/2.3.3"
+                "source": "https://github.com/Seldaek/monolog/tree/2.3.4"
             },
             "funding": [
                 {
@@ -2329,7 +2332,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-09-14T18:40:13+00:00"
+            "time": "2021-09-15T11:27:21+00:00"
         },
         {
             "name": "namshi/jose",
