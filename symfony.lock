@@ -160,6 +160,9 @@
     "paragonie/random_compat": {
         "version": "v9.99.100"
     },
+    "php": {
+        "version": "7.4"
+    },
     "php-http/message-factory": {
         "version": "v1.0.2"
     },
