@@ -9,8 +9,9 @@
         "ext-iconv": "*",
         "ext-pdo_sqlite": "*",
         "ext-sqlite3": "*",
-        "champs-libres/wopi-bundle": "dev-master",
-        "champs-libres/wopi-test-bundle": "dev-master",
+        "champs-libres/wopi-lib": "*@dev",
+        "champs-libres/wopi-bundle": "*@dev",
+        "champs-libres/wopi-test-bundle": "*@dev",
         "nyholm/psr7": "^1.4",
         "symfony/console": "5.3.*",
         "symfony/dotenv": "5.3.*",
@@ -28,6 +29,20 @@
         "symfony/debug-bundle": "5.3.*",
         "symfony/var-dumper": "5.3.*"
     },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "/src/git/CL/wopi-lib"
+        },
+        {
+            "type": "path",
+            "url": "/src/git/CL/wopi-bundle"
+        },
+        {
+            "type": "path",
+            "url": "/src/git/CL/wopi-test-bundle"
+        }
+    ],
     "config": {
         "optimize-autoloader": true,
         "preferred-install": {
@@ -63,9 +78,7 @@
         ]
     },
     "conflict": {
-        "symfony/symfony": "*",
-        "symfony/translation": "v5.3.8",
-        "symfony/messenger": "v5.3.8"
+        "symfony/symfony": "*"
     },
     "extra": {
         "symfony": {
