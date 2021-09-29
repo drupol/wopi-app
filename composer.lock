@@ -4,15 +4,21 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d23fe0cf2d56292d6762d558aac4173d",
+    "content-hash": "70672161eaf10ea1843b822c5da7dac0",
     "packages": [
         {
             "name": "champs-libres/wopi-bundle",
             "version": "dev-master",
-            "dist": {
-                "type": "path",
-                "url": "/src/git/CL/wopi-bundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Champs-Libres/wopi-bundle.git",
                 "reference": "2a960c6191fb8748c87b1244b237bb0579f34f0c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Champs-Libres/wopi-bundle/zipball/2a960c6191fb8748c87b1244b237bb0579f34f0c",
+                "reference": "2a960c6191fb8748c87b1244b237bb0579f34f0c",
+                "shasum": ""
             },
             "require": {
                 "champs-libres/wopi-lib": "dev-master",
@@ -31,12 +37,14 @@
                 "nyholm/psr7": "^1.4",
                 "phpspec/phpspec": "^7.1"
             },
+            "default-branch": true,
             "type": "symfony-bundle",
             "autoload": {
                 "psr-4": {
                     "ChampsLibres\\WopiBundle\\": "src/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -46,17 +54,25 @@
                 "symfony-bundle",
                 "wopi"
             ],
-            "transport-options": {
-                "relative": false
-            }
+            "support": {
+                "issues": "https://github.com/Champs-Libres/wopi-bundle/issues",
+                "source": "https://github.com/Champs-Libres/wopi-bundle/tree/master"
+            },
+            "time": "2021-09-29T07:07:46+00:00"
         },
         {
             "name": "champs-libres/wopi-lib",
             "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Champs-Libres/wopi-lib.git",
+                "reference": "650ce751decee46784306ce5f598d662d37cd616"
+            },
             "dist": {
-                "type": "path",
-                "url": "/src/git/CL/wopi-lib",
-                "reference": "fa03f8380a4d1b8cd4f4fe5b2b7c7f8224c2f3a9"
+                "type": "zip",
+                "url": "https://api.github.com/repos/Champs-Libres/wopi-lib/zipball/650ce751decee46784306ce5f598d662d37cd616",
+                "reference": "650ce751decee46784306ce5f598d662d37cd616",
+                "shasum": ""
             },
             "require": {
                 "ext-json": "*",
@@ -80,29 +96,14 @@
                 "phpspec/phpspec": "^7.1",
                 "symfony/http-client": "^5.3"
             },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
                     "ChampsLibres\\WopiLib\\": "src/"
                 }
             },
-            "scripts": {
-                "changelog-unreleased": [
-                    "docker-compose run auto_changelog -c .auto-changelog -u"
-                ],
-                "changelog-version": [
-                    "docker-compose run auto_changelog -c .auto-changelog -v"
-                ],
-                "grumphp": [
-                    "./vendor/bin/grumphp run"
-                ],
-                "infection": [
-                    "vendor/bin/infection run -j 2"
-                ],
-                "phpspec": [
-                    "vendor/bin/phpspec run -vvv --stop-on-failure"
-                ]
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -112,21 +113,25 @@
                 "wopi"
             ],
             "support": {
+                "docs": "https://github.com/champs-libres/wopi-lib",
                 "issues": "https://github.com/champs-libres/wopi-lib/issues",
-                "source": "https://github.com/champs-libres/wopi-lib",
-                "docs": "https://github.com/champs-libres/wopi-lib"
+                "source": "https://github.com/champs-libres/wopi-lib"
             },
-            "transport-options": {
-                "relative": false
-            }
+            "time": "2021-09-29T07:06:46+00:00"
         },
         {
             "name": "champs-libres/wopi-test-bundle",
             "version": "dev-master",
-            "dist": {
-                "type": "path",
-                "url": "/src/git/CL/wopi-test-bundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Champs-Libres/wopi-test-bundle.git",
                 "reference": "926ee10a78ef5effaabe51e8b6387c748cc5842b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Champs-Libres/wopi-test-bundle/zipball/926ee10a78ef5effaabe51e8b6387c748cc5842b",
+                "reference": "926ee10a78ef5effaabe51e8b6387c748cc5842b",
+                "shasum": ""
             },
             "require": {
                 "champs-libres/wopi-bundle": "dev-master",
@@ -150,12 +155,14 @@
                 "phpspec/phpspec": "^7.1",
                 "symfony/http-client": "^5.3"
             },
+            "default-branch": true,
             "type": "symfony-bundle",
             "autoload": {
                 "psr-4": {
                     "ChampsLibres\\WopiTestBundle\\": "src/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -165,9 +172,11 @@
                 "symfony-bundle",
                 "wopi"
             ],
-            "transport-options": {
-                "relative": false
-            }
+            "support": {
+                "issues": "https://github.com/Champs-Libres/wopi-test-bundle/issues",
+                "source": "https://github.com/Champs-Libres/wopi-test-bundle/tree/master"
+            },
+            "time": "2021-09-28T13:42:39+00:00"
         },
         {
             "name": "composer/package-versions-deprecated",
