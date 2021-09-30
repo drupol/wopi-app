@@ -66,12 +66,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Champs-Libres/wopi-lib.git",
-                "reference": "650ce751decee46784306ce5f598d662d37cd616"
+                "reference": "4e070609610bc2317f6e70d0fa616640e181188b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Champs-Libres/wopi-lib/zipball/650ce751decee46784306ce5f598d662d37cd616",
-                "reference": "650ce751decee46784306ce5f598d662d37cd616",
+                "url": "https://api.github.com/repos/Champs-Libres/wopi-lib/zipball/4e070609610bc2317f6e70d0fa616640e181188b",
+                "reference": "4e070609610bc2317f6e70d0fa616640e181188b",
                 "shasum": ""
             },
             "require": {
@@ -117,7 +117,7 @@
                 "issues": "https://github.com/champs-libres/wopi-lib/issues",
                 "source": "https://github.com/champs-libres/wopi-lib"
             },
-            "time": "2021-09-29T07:06:46+00:00"
+            "time": "2021-09-30T20:27:45+00:00"
         },
         {
             "name": "champs-libres/wopi-test-bundle",
@@ -125,12 +125,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Champs-Libres/wopi-test-bundle.git",
-                "reference": "926ee10a78ef5effaabe51e8b6387c748cc5842b"
+                "reference": "c4b8c0dd1c8ec4753bda6c2762b846a146307485"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Champs-Libres/wopi-test-bundle/zipball/926ee10a78ef5effaabe51e8b6387c748cc5842b",
-                "reference": "926ee10a78ef5effaabe51e8b6387c748cc5842b",
+                "url": "https://api.github.com/repos/Champs-Libres/wopi-test-bundle/zipball/c4b8c0dd1c8ec4753bda6c2762b846a146307485",
+                "reference": "c4b8c0dd1c8ec4753bda6c2762b846a146307485",
                 "shasum": ""
             },
             "require": {
@@ -176,7 +176,7 @@
                 "issues": "https://github.com/Champs-Libres/wopi-test-bundle/issues",
                 "source": "https://github.com/Champs-Libres/wopi-test-bundle/tree/master"
             },
-            "time": "2021-09-28T13:42:39+00:00"
+            "time": "2021-09-30T20:31:01+00:00"
         },
         {
             "name": "composer/package-versions-deprecated",
