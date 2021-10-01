@@ -125,12 +125,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Champs-Libres/wopi-test-bundle.git",
-                "reference": "c4b8c0dd1c8ec4753bda6c2762b846a146307485"
+                "reference": "30200c20e27f1039b906fcdb4ab56c42c9ce2edc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Champs-Libres/wopi-test-bundle/zipball/c4b8c0dd1c8ec4753bda6c2762b846a146307485",
-                "reference": "c4b8c0dd1c8ec4753bda6c2762b846a146307485",
+                "url": "https://api.github.com/repos/Champs-Libres/wopi-test-bundle/zipball/30200c20e27f1039b906fcdb4ab56c42c9ce2edc",
+                "reference": "30200c20e27f1039b906fcdb4ab56c42c9ce2edc",
                 "shasum": ""
             },
             "require": {
@@ -176,7 +176,7 @@
                 "issues": "https://github.com/Champs-Libres/wopi-test-bundle/issues",
                 "source": "https://github.com/Champs-Libres/wopi-test-bundle/tree/master"
             },
-            "time": "2021-09-30T20:31:01+00:00"
+            "time": "2021-10-01T15:47:30+00:00"
         },
         {
             "name": "composer/package-versions-deprecated",
