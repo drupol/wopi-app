@@ -125,12 +125,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Champs-Libres/wopi-test-bundle.git",
-                "reference": "d8370e1e44121c10dc1e5602c3ec1bc0b04345be"
+                "reference": "5d607d78aafd04bcf88c8a793ee430d2eafeaac2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Champs-Libres/wopi-test-bundle/zipball/d8370e1e44121c10dc1e5602c3ec1bc0b04345be",
-                "reference": "d8370e1e44121c10dc1e5602c3ec1bc0b04345be",
+                "url": "https://api.github.com/repos/Champs-Libres/wopi-test-bundle/zipball/5d607d78aafd04bcf88c8a793ee430d2eafeaac2",
+                "reference": "5d607d78aafd04bcf88c8a793ee430d2eafeaac2",
                 "shasum": ""
             },
             "require": {
@@ -170,7 +170,7 @@
                 "issues": "https://github.com/Champs-Libres/wopi-test-bundle/issues",
                 "source": "https://github.com/Champs-Libres/wopi-test-bundle/tree/master"
             },
-            "time": "2022-03-01T09:42:28+00:00"
+            "time": "2022-03-01T09:50:53+00:00"
         },
         {
             "name": "doctrine/annotations",
