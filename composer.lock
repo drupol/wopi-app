@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ee60406b5ed0780006d258d8fd2ff005",
+    "content-hash": "70a67c9544f92e6ea24c5599fcdd196b",
     "packages": [
         {
             "name": "champs-libres/wopi-bundle",
@@ -125,12 +125,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Champs-Libres/wopi-test-bundle.git",
-                "reference": "6ecb0bdebd76d69dc51ba2f9ecd17b7967b01369"
+                "reference": "d8370e1e44121c10dc1e5602c3ec1bc0b04345be"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Champs-Libres/wopi-test-bundle/zipball/6ecb0bdebd76d69dc51ba2f9ecd17b7967b01369",
-                "reference": "6ecb0bdebd76d69dc51ba2f9ecd17b7967b01369",
+                "url": "https://api.github.com/repos/Champs-Libres/wopi-test-bundle/zipball/d8370e1e44121c10dc1e5602c3ec1bc0b04345be",
+                "reference": "d8370e1e44121c10dc1e5602c3ec1bc0b04345be",
                 "shasum": ""
             },
             "require": {
@@ -170,7 +170,7 @@
                 "issues": "https://github.com/Champs-Libres/wopi-test-bundle/issues",
                 "source": "https://github.com/Champs-Libres/wopi-test-bundle/tree/master"
             },
-            "time": "2022-03-01T09:31:40+00:00"
+            "time": "2022-03-01T09:42:28+00:00"
         },
         {
             "name": "doctrine/annotations",
@@ -8622,6 +8622,7 @@
         "php": ">= 8",
         "ext-ctype": "*",
         "ext-iconv": "*",
+        "ext-intl": "*",
         "ext-pdo_sqlite": "*",
         "ext-sqlite3": "*"
     },
